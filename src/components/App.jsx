@@ -42,13 +42,15 @@ function App() {
           onChange={handleContactInfo}
           name="fName"
           placeholder="First Name"
+          value={contact.fName}
         />
         <input
           onChange={handleContactInfo}
           name="lName"
           placeholder="Last Name"
+          value={contact.lName}
         />
-        <input onChange={handleContactInfo} name="email" placeholder="Email" />
+        <input onChange={handleContactInfo} name="email" placeholder="Email"  value={contact.email}/>
         <button>Submit</button>
       </form>
     </div>
